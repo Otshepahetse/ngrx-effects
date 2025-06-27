@@ -13,3 +13,5 @@ export interface ExpenseStateInterface {
     loading: boolean;
     error : string | null;
 }
+
+export type ExpenseDataInterface = Omit<ExpensesInterface, 'id'>;
