@@ -1,0 +1,23 @@
+{
+    "expense":[
+        {
+            "id":"123",
+            "description": "Expense",
+            "amount":55,
+            "category":"food",
+            "date": "2025-06-26"
+        },  {
+            "id":"246",
+            "description": "Expense",
+            "amount":23,
+            "category":"food",
+            "date": "2025-06-27"
+        },  {
+            "id":"482",
+            "description": "Income",
+            "amount":2355,
+            "category":"food",
+            "date": "2025-06-26"
+        }
+    ]
+}
