@@ -58,12 +58,12 @@ export const DELETE_EXPENSES = createAction(
   props<{expenseId :string }>()
 );
 
-export const DELETE_EXPENSE0S_SUCCESSFULL = createAction(
+export const DELETE_EXPENSES_SUCCESSFULL = createAction(
   '[DELETE EXPENSE API] Delete expense successfully',
   props<{expenseId :string }>()
 );
 
-export const DELETE_EXPENSE0S_UNSUCCESSFULL = createAction(
+export const DELETE_EXPENSES_UNSUCCESSFULL = createAction(
   '[DELETE EXPENSE API] Delete expense Unsuccessful',
   props<{ error : any }>()
 );
